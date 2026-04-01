@@ -1,0 +1,21 @@
+# Claude Code workflow (tracked via diwu-workflow)
+# .claude/ is intentionally NOT ignored — contains rules, agents, task.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment
+.env
+.env.local
