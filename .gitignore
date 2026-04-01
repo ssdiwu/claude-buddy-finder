@@ -1,6 +1,9 @@
 # Claude Code workflow
 .claude/
 
+# Local workflow files (NEVER commit these)
+AGENTS.md
+
 # Logs
 *.log
 npm-debug.log*

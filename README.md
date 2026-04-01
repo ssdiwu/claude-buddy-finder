@@ -160,6 +160,15 @@ claude-buddy-finder/
 └── package.json
 ```
 
+## 本地工作流文件（永不推送）
+
+以下文件仅存于本地，**不得提交**到远程仓库：
+
+- `.claude/` — Claude Code 工作流配置（含 task.json、rules、agents）
+- `AGENTS.md` — Agent 工作流文档
+
+原因：包含项目内部协作信息，不适合公开。
+
 ## 相关
 
 - Claude Code companion 源码：[src/buddy/companion.ts](https://github.com/anthropics/claude-code/blob/main/src/buddy/companion.ts)
