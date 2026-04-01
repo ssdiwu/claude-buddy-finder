@@ -1,5 +1,5 @@
-# Claude Code workflow (tracked via diwu-workflow)
-# .claude/ is intentionally NOT ignored — contains rules, agents, task.json
+# Claude Code workflow
+.claude/
 
 # Logs
 *.log
