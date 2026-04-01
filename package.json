@@ -1,0 +1,29 @@
+{
+  "name": "claude-buddy-finder",
+  "version": "1.0.0",
+  "description": "Claude Code /buddy companion search & patch tool — find and inject any companion you want",
+  "main": "src/index.js",
+  "bin": {
+    "buddy-finder": "src/index.js",
+    "buddy-patch": "src/patcher.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "patch": "node src/patcher.js"
+  },
+  "keywords": [
+    "claude-code",
+    "buddy",
+    "companion",
+    "claude"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
+}
